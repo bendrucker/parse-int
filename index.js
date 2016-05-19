@@ -2,11 +2,11 @@
 
 var isInteger = require('is-integer')
 
-module.exports = function parseIntStrict (int) {
-  if (typeof int === 'number') {
-    return isInteger(int) ? int : undefined
+module.exports = function parseIntStrict (integer) {
+  if (typeof integer === 'number') {
+    return isInteger(integer) ? integer : undefined
   }
-  if (typeof int === 'string') {
-    return /^\d+$/.test(int) ? parseInt(int, 10) : undefined
+  if (typeof integer === 'string') {
+    return /^\d+$/.test(integer) ? parseInt(integer, 10) : undefined
   }
 }

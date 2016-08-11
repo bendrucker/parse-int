@@ -7,6 +7,6 @@ module.exports = function parseIntStrict (integer) {
     return isInteger(integer) ? integer : undefined
   }
   if (typeof integer === 'string') {
-    return /^\d+$/.test(integer) ? parseInt(integer, 10) : undefined
+    return /^-?\d+$/.test(integer) ? parseInt(integer, 10) : undefined
   }
 }

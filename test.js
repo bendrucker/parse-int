@@ -8,6 +8,9 @@ test(function (t) {
   t.equal(parseIntStrict('1'), 1)
   t.equal(parseIntStrict('01'), 1)
 
+  t.equal(parseIntStrict('-99'), -99)
+  t.equal(parseIntStrict('-1'), -1)
+
   t.equal(parseIntStrict(1.2), undefined)
   t.notOk(parseIntStrict('2.2'))
   t.notOk(parseIntStrict('2a'))

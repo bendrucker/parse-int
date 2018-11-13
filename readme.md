@@ -1,4 +1,4 @@
-# parse-int [![Build Status](https://travis-ci.org/bendrucker/parse-int.svg?branch=master)](https://travis-ci.org/bendrucker/parse-int)
+# parse-int [![Build Status](https://travis-ci.org/bendrucker/parse-int.svg?branch=master)](https://travis-ci.org/bendrucker/parse-int) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/parse-int.svg)](https://greenkeeper.io/)
 
 > Strict integer parsing. If it's not an actual integer or an integer string, return undefined.
 

@@ -1,7 +1,7 @@
 {
   "name": "parse-int",
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Strict integer parsing",
   "license": "MIT",
   "repository": "bendrucker/parse-int",
